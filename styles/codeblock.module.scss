@@ -1,0 +1,112 @@
+@import "./variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
+
+.textContent {
+    font-family: JetBrains Mono, sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    & * {
+      font-family: JetBrains Mono, sans-serif;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .textContent {
+        font-size: 1rem;
+    }
+    .dot {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+  
+@media screen and (min-width: 670px) {
+    .textContent {
+        font-size: 1rem;
+    }
+    .dot {
+        width: 1rem;
+        height: 1rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .textContent {
+        font-size: 2.0vw;
+    }
+    .dot {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .textContent {
+        font-size: 2.2vw;
+    }
+    .dot {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+// Colors for action buttons on top of window
+.dot {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: #c4c4c4;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.relative {
+    position: relative;
+}
+
+.redDot {
+    background-color: $redDot;
+}
+
+.yellowDot {
+    background-color: $yellowDot;
+}
+
+.greenDot {
+    background-color: $greenDot;
+}
+// Colors for letters
+.const {
+    color: $constColor;
+}
+.melih  {
+    color: $melihColor;   
+}
+.equal  {
+    color: $equalColor;
+}
+.bracket{
+    color: $bracketColor;
+}
+.comma {
+    color: $commaColor;
+}
+.semi_colon {
+    color: $semicolonColor;
+}
+.colon  {
+    color: $colonColor;
+}
+.properties {
+    color: 	$propertiesColor;
+    font-style: italic;
+}
+.integer {
+    color: 	$integerColor;
+}
+.string {
+    color: $stringColor;  
+}
+.line {
+    color: $lineColor;
+}
