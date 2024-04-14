@@ -56,12 +56,19 @@ const FirstLine = () => {
     );
 };
 const SecondLine = () => {
+    const birthdate = new Date('2001-04-16');
+    const today = new Date();
+    let calculatedAge = today.getFullYear() - birthdate.getFullYear();
+    const monthDiff = today.getMonth() - birthdate.getMonth();
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthdate.getDate())) {
+      calculatedAge--;
+    }
     return (
         <>
             <span className={styles.line}>|&nbsp;&nbsp;</span>
             <span className={styles.properties}>age</span>
             <span className={styles.colon}>&nbsp; &nbsp;:</span>
-            <span className={styles.integer}>{" "}22</span>
+            <span className={styles.integer}>{" "}{calculatedAge}</span>
             <span className={styles.comma}>,</span>
             <br />
         </>
