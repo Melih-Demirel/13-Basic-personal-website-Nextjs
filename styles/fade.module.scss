@@ -10,8 +10,20 @@
 
 .font {
     font-family: 'JetBrains Mono Variable', monospace;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-weight: 500;
+}
+
+@media screen and (min-width: 550px) {
+    .font {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .font {
+        font-size: 1.1rem;
+    }
 }
 
 @keyframes fadeOut {
