@@ -13,7 +13,7 @@ export const Codeblock = () => {
 };
 
 const TopOfWindow = () => {
-    const actionWindow = "bg-zinc-950 border-zinc-800 border-4 relative mx-auto border py-4 border rounded-t-lg w-11/12 md:w-3/4"
+    const actionWindow = "bg-zinc-950 border-zinc-800 border-4 relative mx-auto py-3 lg:py-4 border rounded-t-lg w-11/12 md:w-3/4"
     return (
     <>
         <div className={actionWindow}>
