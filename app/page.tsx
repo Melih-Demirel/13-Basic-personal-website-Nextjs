@@ -30,7 +30,7 @@ export default function Home() {
             <section>
                 <section>
                     <div className="flex flex-col items-center py-8">
-                        <p className={rainbow.rainbowText}>development still in process...</p>
+                        <p className={rainbow.rainbowText}>will finish when I have time :{')'}</p>
                         {/* <div>
                             <Image src="/1.png" alt="Your Logo" width={width} height={height}/>
                             <Image src="/2.png" alt="Your Logo" width={width} height={height} />
