@@ -7,8 +7,13 @@
     background-clip: text;
     color: transparent;
 }
-  
-  
+
+.font {
+    font-family: 'JetBrains Mono Variable', monospace;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
 @keyframes fadeOut {
     0% {
         opacity: 1;

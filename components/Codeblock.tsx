@@ -47,7 +47,7 @@ const TextWindow = () => {
 const FirstLine = () => {
     return (
         <>
-            <span className={styles.const}>const</span>
+            <span className={styles.let}>let</span>
             <span className={styles.melih}>{" "}Melih{" "}</span>
             <span className={styles.equal}>=</span>
             <span className={styles.bracket}>{" {"}</span>

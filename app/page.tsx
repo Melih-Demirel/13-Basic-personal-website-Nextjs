@@ -32,7 +32,8 @@ export default function Home() {
                 <section>
                     <div className="flex flex-col items-center py-8">
                         {/* <p className={fade.fadeAway}>{'{ '}and to Him we shall return{' }'}</p> */}
-                        <p className={fade.fadeToLow}>and to Him we shall return</p>
+                        {/* <p className={fade.fadeToLow}>and to Him we shall return</p> */}
+                        <p className={fade.fadeToLow + " " + fade.font}>and to Him we shall return</p>
                         {/* <p className={fade.fadeAway}>and to Him we shall return</p> */}
                     </div>
                 </section>
