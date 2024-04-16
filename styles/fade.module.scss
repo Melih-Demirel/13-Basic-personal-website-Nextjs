@@ -1,0 +1,20 @@
+.fadeAway {
+    animation: fadeOut 7s forwards; /* Adjust duration as needed */
+}
+.fadeToLow {
+    background: linear-gradient(to left, transparent 0%, white 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+  
+  
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+  

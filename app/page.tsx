@@ -7,6 +7,7 @@ import {Socials} from "@/components/Socials";
 import { Footer } from "@/components/Footer";
 
 import rainbow from "@/styles/rainbow.module.scss";
+import fade from "@/styles/fade.module.scss";
 
 export const metadata = {
     title: 'Melih | Home'
@@ -30,13 +31,9 @@ export default function Home() {
             <section>
                 <section>
                     <div className="flex flex-col items-center py-8">
-                        <p className={rainbow.rainbowText}>will finish when I have time :{')'}</p>
-                        {/* <div>
-                            <Image src="/1.png" alt="Your Logo" width={width} height={height}/>
-                            <Image src="/2.png" alt="Your Logo" width={width} height={height} />
-                            <Image src="/3.png" alt="Your Logo" width={width} height={height} />
-                            <Image src="/a.jpg" alt="Your Logo" width={width} height={height} />
-                        </div> */}  
+                        {/* <p className={fade.fadeAway}>{'{ '}and to Him we shall return{' }'}</p> */}
+                        <p className={fade.fadeToLow}>and to Him we shall return</p>
+                        {/* <p className={fade.fadeAway}>and to Him we shall return</p> */}
                     </div>
                 </section>
                 <section>
@@ -47,6 +44,11 @@ export default function Home() {
                 </section>
                 <section>
                     <Footer/>
+                </section>
+                <section>
+                    <div className="flex flex-col items-center py-8">
+                        <p className={rainbow.rainbowText}>will finish when I have time :{')'}</p>
+                    </div>
                 </section>
             </section>           
         </>

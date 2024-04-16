@@ -15,10 +15,6 @@
     margin: 0 4px;
 }
 
-.padding-action {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-}
 @media screen and (min-width: 550px) {
     .textContent {
         font-size: 1rem;
@@ -30,27 +26,23 @@
         font-size: 1rem;
     }
     .dot {
-        width: 0.8rem;
-        height: 0.8rem;
+        width: 0.75rem;
+        height: 0.75rem;
     }
 }
 
 @media screen and (min-width: 800px) {
     .textContent {
-        font-size: 2.0vw;
+        font-size: 1.9vw;
     }
 
 }
 
-@media screen and (min-width: 1440px) {
-    .textContent {
-        font-size: 2.2vw;
-    }
-    .dot {
-        width: 1rem;
-        height: 1rem;
-    }
-}
+// @media screen and (min-width: 1440px) {
+//     .textContent {
+//         font-size: 1.8vw;
+//     }
+// }
 
 // Colors for action buttons on top of window
 
