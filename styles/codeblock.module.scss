@@ -1,13 +1,9 @@
 @import "./variables.scss";
-@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;500&display=swap");
 
 .textContent {
-    font-family: 'Jetbrains Mono', sans-serif;
+    font-family: 'JetBrains Mono Variable', monospace;
     font-size: 0.7rem;
     font-weight: 500;
-    & * {
-      font-family: 'JetBrains Mono', sans-serif;
-    }
 }
 
 .dot {
