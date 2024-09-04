@@ -10,17 +10,14 @@ import rainbow from "@/styles/rainbow.module.scss";
 import fade from "@/styles/fade.module.scss";
 
 export const metadata = {
-    title: 'Melih | Home'
+    title: 'Melih Demirel'
 }
 
 export default function Home() {
-    const count = 14; // Number of images
-    const width = 50;
-    const height = 25;
     return (
         <>
             <Head>
-                <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+                <link rel="apple-touch-icon" sizes="180x180" href="/1.png" />
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
                 <link rel="manifest" href="/site.webmanifest" />
@@ -33,7 +30,7 @@ export default function Home() {
                     <div className="flex flex-col items-center py-8">
                         {/* <p className={fade.fadeAway}>{'{ '}and to Him we shall return{' }'}</p> */}
                         {/* <p className={fade.fadeToLow}>and to Him we shall return</p> */}
-                        <p className={fade.fadeToLow + " " + fade.font}>"and to Him we shall return</p>
+                        <p className={fade.fadeToLow + " " + fade.font}>&quot;and to Him we shall return</p>
                         {/* <p className={fade.fadeAway}>and to Him we shall return</p> */}
                     </div>
                 </section>
