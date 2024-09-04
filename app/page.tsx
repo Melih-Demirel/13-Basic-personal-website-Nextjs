@@ -9,9 +9,6 @@ import { Footer } from "@/components/Footer";
 import rainbow from "@/styles/rainbow.module.scss";
 import fade from "@/styles/fade.module.scss";
 
-export const metadata = {
-    title: 'Melih Demirel'
-}
 
 export default function Home() {
     return (
@@ -27,11 +24,9 @@ export default function Home() {
             </Head>
             <section>
                 <section>
-                    <div className="flex flex-col items-center py-8">
-                        {/* <p className={fade.fadeAway}>{'{ '}and to Him we shall return{' }'}</p> */}
-                        {/* <p className={fade.fadeToLow}>and to Him we shall return</p> */}
-                        <p className={fade.fadeToLow + " " + fade.font}>&quot;and to Him we shall return</p>
-                        {/* <p className={fade.fadeAway}>and to Him we shall return</p> */}
+                    <div className="flex flex-col items-center pt-6 pb-4">
+                        <p className={fade.fadeAway + " " + fade.font}>~ and to Him we shall return ~</p>
+                        <p className={fade.fadeAway + " " + fade.fontT + " pt-2"}>[2:156]</p>
                     </div>
                 </section>
                 <section>

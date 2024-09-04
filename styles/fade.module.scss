@@ -1,6 +1,8 @@
 .fadeAway {
-    animation: fadeOut 7s forwards; /* Adjust duration as needed */
+    animation: fadeOut 7s forwards;
+    /* Adjust duration as needed */
 }
+
 .fadeToLow {
     background: linear-gradient(to left, transparent 0%, white 100%);
     -webkit-background-clip: text;
@@ -11,12 +13,22 @@
 .font {
     font-family: 'JetBrains Mono Variable', monospace;
     font-size: 0.8rem;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+.fontT {
+    font-family: 'JetBrains Mono Variable', monospace;
+    font-size: 0.6rem;
+    font-weight: 400;
 }
 
 @media screen and (min-width: 550px) {
     .font {
         font-size: 0.9rem;
+    }
+
+    .fontT {
+        font-size: 0.8rem;
     }
 }
 
@@ -24,14 +36,25 @@
     .font {
         font-size: 1.1rem;
     }
+
+    .fontT {
+        font-size: 0.9rem;
+    }
 }
 
 @keyframes fadeOut {
-    0% {
+    from {
         opacity: 1;
     }
-    100% {
+
+    to {
         opacity: 0;
+        visibility: hidden;
     }
 }
-  
+
+.fadeAway {
+    opacity: 1;
+    animation: fadeOut 6s ease-out forwards;
+    animation-delay: 0s;
+}
