@@ -7,7 +7,7 @@ const socialLinks = {
     linkedin: "https://www.linkedin.com/in/melih-demirel-0009aa208/"
 };
 
-const baseDiv = "border border-gray-500 rounded-lg sm:border-black active:bg-gray-700 hover:sm:border-gray-500";
+const baseDiv = " border sm:border-2  border-gray-500 rounded-lg sm:border-black active:bg-gray-700 hover:sm:border-gray-500";
 
 export const Socials = () => {
     return (
