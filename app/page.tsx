@@ -2,8 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 
 // Components
-import {Codeblock}from "@/components/Codeblock";
-import {Socials} from "@/components/Socials";
+import { Codeblock } from "@/components/Codeblock";
+import { Socials } from "@/components/Socials";
 import { Footer } from "@/components/Footer";
 
 import rainbow from "@/styles/rainbow.module.scss";
@@ -33,25 +33,25 @@ export default function Home() {
                     <div className="flex flex-col items-center py-8">
                         {/* <p className={fade.fadeAway}>{'{ '}and to Him we shall return{' }'}</p> */}
                         {/* <p className={fade.fadeToLow}>and to Him we shall return</p> */}
-                        <p className={fade.fadeToLow + " " + fade.font}>and to Him we shall return</p>
+                        <p className={fade.fadeToLow + " " + fade.font}>"and to Him we shall return</p>
                         {/* <p className={fade.fadeAway}>and to Him we shall return</p> */}
                     </div>
                 </section>
                 <section>
-                    <Codeblock/>
+                    <Codeblock />
                 </section>
                 <section className="py-8">
-                    <Socials/>
+                    <Socials />
                 </section>
-                <section>
-                    <Footer/>
-                </section>
-                <section>
+                {/* <section>
+                    <Footer />
+                </section> */}
+                {/* <section>
                     <div className="flex flex-col items-center py-8">
                         <p className={rainbow.rainbowText}>will finish when I have time :{')'}</p>
                     </div>
-                </section>
-            </section>           
+                </section> */}
+            </section>
         </>
     );
 }

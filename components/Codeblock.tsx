@@ -2,45 +2,45 @@ import React from "react";
 import styles from "@/styles/codeblock.module.scss";
 
 export const Codeblock = () => {
-  return (
-    <>
-        <div className="flex flex-col items-center">
-            <TopOfWindow/>
-            <TextWindow/>
-        </div>
-    </>
-  );
+    return (
+        <>
+            <div className="flex flex-col items-center">
+                <TopOfWindow />
+                <TextWindow />
+            </div>
+        </>
+    );
 };
 
 const TopOfWindow = () => {
     const actionWindow = "bg-zinc-950 border-zinc-800 border-4 relative mx-auto py-3 lg:py-4 border rounded-t-lg w-11/12 md:w-3/4"
     return (
-    <>
-        <div className={actionWindow}>
-            <div className="absolute left-1 top-1/2 transform -translate-y-1/2">
-                <span className={styles.dot + " " +styles.redDot}></span>
-                <span className={styles.dot + " " +styles.yellowDot}></span>
-                <span className={styles.dot + " " +styles.greenDot}></span>
+        <>
+            <div className={actionWindow}>
+                <div className="absolute left-1 top-1/2 transform -translate-y-1/2">
+                    <span className={styles.dot + " " + styles.redDot}></span>
+                    <span className={styles.dot + " " + styles.yellowDot}></span>
+                    <span className={styles.dot + " " + styles.greenDot}></span>
+                </div>
             </div>
-        </div>
-    </>
+        </>
     );
 };
 
 const TextWindow = () => {
     const editorWindow = "bg-zinc-900 border-zinc-800 border-l-4 border-r-4 border-b-4 mx-auto border rounded-b-lg p-2 w-11/12 md:w-3/4"
     return (
-    <>
-        <div className={editorWindow}>
-            <h1 className={styles.textContent}>
-                <FirstLine/>
-                <SecondLine/>
-                <ThirdLine/>
-                <FourthLine/>
-                <LastLine/>
-            </h1>
-        </div>
-    </>
+        <>
+            <div className={editorWindow}>
+                <h1 className={styles.textContent}>
+                    <FirstLine />
+                    <SecondLine />
+                    <ThirdLine />
+                    <FourthLine />
+                    <LastLine />
+                </h1>
+            </div>
+        </>
     );
 };
 
@@ -61,7 +61,7 @@ const SecondLine = () => {
     let calculatedAge = today.getFullYear() - birthdate.getFullYear();
     const monthDiff = today.getMonth() - birthdate.getMonth();
     if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthdate.getDate())) {
-      calculatedAge--;
+        calculatedAge--;
     }
     return (
         <>
@@ -80,7 +80,7 @@ const ThirdLine = () => {
             <span className={styles.line}>|&nbsp;&nbsp;</span>
             <span className={styles.properties}>studying</span>
             <span className={styles.colon}>&nbsp;:</span>
-            <span className={styles.string}>{" `"}Master&apos;s in Computer Science @UHasselt{"`"}</span>
+            <span className={styles.string}>{" `"}Master&apos;s in Computer Science @UHasselt 2/2{"`"}</span>
             <span className={styles.comma}>,</span>
             <br />
         </>
