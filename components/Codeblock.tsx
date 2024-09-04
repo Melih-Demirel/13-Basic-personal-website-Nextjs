@@ -80,7 +80,7 @@ const ThirdLine = () => {
             <span className={styles.line}>|&nbsp;&nbsp;</span>
             <span className={styles.properties}>studying</span>
             <span className={styles.colon}>&nbsp;:</span>
-            <span className={styles.string}>{" `"}Master&apos;s in Computer Science @UHasselt 2/2{"`"}</span>
+            <span className={styles.string}>{" `"}Master&apos;s in Computer Sc. @UHasselt 2/2{"`"}</span>
             <span className={styles.comma}>,</span>
             <br />
         </>
