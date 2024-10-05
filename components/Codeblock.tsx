@@ -35,7 +35,9 @@ const TextWindow = () => {
                 <h1 className={styles.textContent}>
                     <FirstLine />
                     <SecondLine />
+
                     <ThirdLine />
+                    <ProfileLine />
                     <FourthLine />
                     <LastLine />
                 </h1>
@@ -55,6 +57,18 @@ const FirstLine = () => {
         </>
     );
 };
+const ProfileLine = () => {
+    return (
+        <>
+            <span className={styles.line}>|&nbsp;&nbsp;</span>
+            <span className={styles.properties}>profile</span>
+            <span className={styles.colon}>&nbsp;&nbsp;:</span>
+            <span className={styles.string}>{" `"}Artificial Int. & Data Mngment.{"`"}</span>
+            <span className={styles.comma}>,</span>
+            <br />
+        </>
+    );
+};
 const SecondLine = () => {
     const birthdate = new Date('2001-04-16');
     const today = new Date();
@@ -67,7 +81,7 @@ const SecondLine = () => {
         <>
             <span className={styles.line}>|&nbsp;&nbsp;</span>
             <span className={styles.properties}>age</span>
-            <span className={styles.colon}>&nbsp; &nbsp;:</span>
+            <span className={styles.colon}>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;:</span>
             <span className={styles.integer}>{" "}{calculatedAge}</span>
             <span className={styles.comma}>,</span>
             <br />
@@ -100,6 +114,14 @@ const FourthLine = () => {
                 <br />
                 <span className={styles.line}>|&nbsp;&nbsp;</span>
                 &nbsp;{" `"}Thrives on problem-solving challenges{"`"}
+                <span className={styles.equal}>&nbsp;+&nbsp;</span>
+                <br />
+                <span className={styles.line}>|&nbsp;&nbsp;</span>
+                &nbsp;{" `"}Gymrat{"`"}
+                <span className={styles.equal}>&nbsp;+&nbsp;</span>
+                <br />
+                <span className={styles.line}>|&nbsp;&nbsp;</span>
+                &nbsp;{" `"}Bike freak{"`"}
             </span>
             <br />
         </>
