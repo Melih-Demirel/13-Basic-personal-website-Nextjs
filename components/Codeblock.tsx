@@ -109,19 +109,23 @@ const FourthLine = () => {
             <span className={styles.string}>
                 <br />
                 <span className={styles.line}>|&nbsp;&nbsp;</span>
-                &nbsp;{" `"}Passionate software engineer{"`"}
+                &nbsp;{" `"}Driven by curiosity for data and patterns{"`"}
                 <span className={styles.equal}>&nbsp;+&nbsp;</span>
                 <br />
                 <span className={styles.line}>|&nbsp;&nbsp;</span>
-                &nbsp;{" `"}Thrives on problem-solving challenges{"`"}
+                &nbsp;{" `"}Exploring AI and innovative solutions{"`"}
                 <span className={styles.equal}>&nbsp;+&nbsp;</span>
                 <br />
+                <span className={styles.line}>|&nbsp;&nbsp;</span>
+                &nbsp;{" `"}Always eager to learn and grow{"`"}
+                <span className={styles.equal}>&nbsp;&nbsp;</span>
+                {/* <br />
                 <span className={styles.line}>|&nbsp;&nbsp;</span>
                 &nbsp;{" `"}Gymrat{"`"}
                 <span className={styles.equal}>&nbsp;+&nbsp;</span>
                 <br />
                 <span className={styles.line}>|&nbsp;&nbsp;</span>
-                &nbsp;{" `"}Bike freak{"`"}
+                &nbsp;{" `"}Bike freak{"`"} */}
             </span>
             <br />
         </>
