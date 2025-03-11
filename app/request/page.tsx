@@ -70,7 +70,7 @@ export default function PersonalRequest() {
           <p className="text-xs mb-4">
             Yuuhuu Cinucen Hanım, rond de pot draaien doen we niet graag hé + moest creatief worden, dus hierbij:
           </p>
-          <p className="text-xs mb-4 font-bold">'may Melih Demirel get to know you?'</p>
+          <p className="text-xs mb-4 font-bold">&apos;may Melih Demirel get to know you?&apos;</p>
 
           <button
             className="p-4 bg-green-500 text-xl rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-green-400 animate-pulse"
