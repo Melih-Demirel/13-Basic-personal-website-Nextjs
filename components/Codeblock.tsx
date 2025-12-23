@@ -92,9 +92,9 @@ const ThirdLine = () => {
     return (
         <>
             <span className={styles.line}>|&nbsp;&nbsp;</span>
-            <span className={styles.properties}>studying</span>
-            <span className={styles.colon}>&nbsp;:</span>
-            <span className={styles.string}>{" `"}Master&apos;s in Computer Sc. @UHasselt 2/2{"`"}</span>
+            <span className={styles.properties}>degree</span>
+            <span className={styles.colon}>&nbsp;&nbsp;&nbsp;:</span>
+            <span className={styles.string}>{" `"}Master&apos;s in Computer Sc. @UHasselt{"`"}</span>
             <span className={styles.comma}>,</span>
             <br />
         </>
@@ -104,28 +104,21 @@ const FourthLine = () => {
     return (
         <>
             <span className={styles.line}>|&nbsp;&nbsp;</span>
-            <span className={styles.properties}>about_me</span>
-            <span className={styles.colon}>&nbsp;:</span>
+            <span className={styles.properties}>focus</span>
+            <span className={styles.colon}>&nbsp;&nbsp;&nbsp;&nbsp;:</span>
             <span className={styles.string}>
                 <br />
                 <span className={styles.line}>|&nbsp;&nbsp;</span>
-                &nbsp;{" `"}Driven by curiosity for data and patterns{"`"}
+                &nbsp;{" `"}Full-stack web application development{"`"}
                 <span className={styles.equal}>&nbsp;+&nbsp;</span>
                 <br />
                 <span className={styles.line}>|&nbsp;&nbsp;</span>
-                &nbsp;{" `"}Exploring AI and innovative solutions{"`"}
+                &nbsp;{" `"}Data scraping & automation pipelines{"`"}
                 <span className={styles.equal}>&nbsp;+&nbsp;</span>
                 <br />
                 <span className={styles.line}>|&nbsp;&nbsp;</span>
-                &nbsp;{" `"}Always eager to learn and grow{"`"}
+                &nbsp;{" `"}AI/ML integration & model deployment{"`"}
                 <span className={styles.equal}>&nbsp;&nbsp;</span>
-                {/* <br />
-                <span className={styles.line}>|&nbsp;&nbsp;</span>
-                &nbsp;{" `"}Gymrat{"`"}
-                <span className={styles.equal}>&nbsp;+&nbsp;</span>
-                <br />
-                <span className={styles.line}>|&nbsp;&nbsp;</span>
-                &nbsp;{" `"}Bike freak{"`"} */}
             </span>
             <br />
         </>

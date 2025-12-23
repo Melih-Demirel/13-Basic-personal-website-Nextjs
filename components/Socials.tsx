@@ -14,16 +14,6 @@ export const Socials = () => {
         <div className="w-11/12 md:w-3/4 flex items-center mx-auto justify-center space-x-5">
             <div className={baseDiv}>
                 <a
-                    href={socialLinks.instagram}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="block p-2"
-                >
-                    <FaInstagram className="text-xl sm:text-3xl md:text-4xl" />
-                </a>
-            </div>
-            <div className={baseDiv}>
-                <a
                     href={socialLinks.github}
                     target="_blank"
                     rel="noopener noreferrer"
